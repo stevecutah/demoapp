@@ -42,9 +42,7 @@
 							<form:input path="emailAddress"/>
 							<input type="submit" value='<spring:message code="login.button.login.text"/>' class="button" />
 							<div><form:errors path="emailAddress" cssClass="fieldValidationError" element="div" htmlEscape="false"/></div>
-							<div><spring:message code="${logoutMessage}" /></div>
-							
-							<div class="nonErrorSystemMessage">${logoutMessage}</div>
+							<div>${logoutMessage}</div>
 							<div>
 								<spring:message code="login.text.demo_hint"/>
 							</div>
