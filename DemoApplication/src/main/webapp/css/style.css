@@ -2278,3 +2278,21 @@ transform
 .fieldValidationError {
 	color:#ff0000;
 }
+
+.nonErrorSystemMessage {
+	border-radius: 8px;
+	background: #61b8db;
+	background-image: -moz-linear-gradient(top, rgba(97, 184, 219, 0),
+		rgba(48, 141, 196, 1));
+	background-image: -webkit-linear-gradient(top, rgba(97, 184, 219, 0),
+		rgba(48, 141, 196, 1));
+	background-image: -o-linear-gradient(top, rgba(97, 184, 219, 0),
+		rgba(48, 141, 196, 1));
+	background-image: -ms-linear-gradient(top, rgba(97, 184, 219, 0),
+		rgba(48, 141, 196, 1));
+	background-image: linear-gradient(top, rgba(97, 184, 219, 0),
+		rgba(48, 141, 196, 1));
+	color:#fff;
+	padding: 5px 5px 5px 15px;
+	
+}
